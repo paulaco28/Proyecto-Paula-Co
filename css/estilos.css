@@ -17,6 +17,7 @@ ul {
 .grid {
     background-color: white;
     padding: 25px;
+    margin-bottom: 15px;
     margin: 15px;
     border: 5px solid black;
     display: grid;
@@ -343,7 +344,9 @@ ul {
     display: grid;
     justify-content: center;
     color: rgba(25, 122, 114, 0.753);
-    margin-bottom: 100px;
+    padding: 25px;
+    margin: 15px;
+   
 }
 
 .contacto1 {
@@ -355,30 +358,32 @@ ul {
     margin: 20px;
     padding: 5px;
     border: 5px solid black;
-    margin-bottom: 100px;
+    margin-bottom: 15px
 }
 
 .contacto__arriba {
     padding: 15px;
 }
-
-.faq {
-    background-color: black;
-    color: black;
-    margin-bottom: 15px;
-    border: 5px solid black;
-    background-image: linear-gradient(to left, white, rgba(25, 122, 114, 0.753), white)
-}
-
-
-.faq_titulo {
-    color: black;
+.faq__titulo1{
+    color: rgba(25, 122, 114, 0.753);
     display: grid;
     justify-content: center;
     margin-bottom: 30px;
     margin: 32px;
     padding: 5px;
 }
+.faq {
+    background-color: black;
+    color: black;
+    padding: 25px;
+    margin: 15px;
+    margin-bottom: 15px;
+    border: 5px solid black;
+    background-image: linear-gradient(to left, white, rgba(25, 122, 114, 0.753), white)
+}
+
+
+
 
 .faq_subtitulo {
     display: grid;
@@ -399,6 +404,7 @@ ul {
     background-color: white;
     padding: 25px;
     margin: 15px;
+    margin-bottom: 15px;
     border: 5px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -592,7 +598,15 @@ ul {
 
 
 
-
+.productos{
+    
+        color: rgba(25, 122, 114, 0.753);
+        display: grid;
+        justify-content: center;
+        margin-bottom: 30px;
+    padding: 25px;
+    margin: 15px;
+}
 
 
 .productos__trasn {
@@ -722,10 +736,17 @@ ul {
         height: 48px;
     }
 
-    .nav:target {
+    .paginas{
+        display: none;
+        background-color: black;
+    }
+   
+    .header__icono{
+        display:block
+    }
+    .paginas:target{
         display: block;
     }
-
     .inicio1__imagenderecha {
         display: none;
     }
