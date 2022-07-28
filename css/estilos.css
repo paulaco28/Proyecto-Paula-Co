@@ -340,14 +340,7 @@ ul {
 }
 
 
-.contacto0 {
-    display: grid;
-    justify-content: center;
-    color: rgba(25, 122, 114, 0.753);
-    padding: 25px;
-    margin: 15px;
-   
-}
+
 
 .contacto1 {
     display: grid;
@@ -626,14 +619,49 @@ ul {
 
 .productos1__hijo {
     /* transform: translate( 400px, 100px);*/
+    background-color: white;
     color: black;
     font-size: 30px;
     display: grid;
     justify-content: center;
 
 }
-
-
+.contacto0 {
+    color:rgba(25, 122, 114, 0.753);
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+}
+.faq0{
+    color:rgba(25, 122, 114, 0.753);
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+}
+.Recetas0{
+    color:rgba(25, 122, 114, 0.753);
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+}
+.producto0{
+    color:rgba(25, 122, 114, 0.753);
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+}
+.productos{
+    color:black;
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+}
+.index0{
+    color:rgba(25, 122, 114, 0.753);
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+}
 
 
 
