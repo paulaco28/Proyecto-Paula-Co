@@ -710,6 +710,14 @@ ul {
         display: none;
     }
 
+     .paginas__item a {
+        text-align: left;
+        text-decoration: underline;
+     } 
+          
+        
+      
+
     .header__icono {
         display: block;
 
