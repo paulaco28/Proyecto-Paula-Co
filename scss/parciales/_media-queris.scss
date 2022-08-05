@@ -1,0 +1,179 @@
+
+/*vista tablet*/
+@media screen and (max-width: 1023px) {
+    .recegrid__titulo {
+        color: black;
+    }
+
+    .footer {
+        min-height: 150px;
+
+    }
+
+    .footer__parrafo {
+        background-color: black;
+        text-align: center;
+        font-size: 18px;
+        color: rgba(25, 122, 114, 0.753);
+
+    }
+
+    .productos1__hijo {
+        /* transform: translate( 400px, 100px);*/
+        color: black;
+        font-size: 20px;
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .productos1 {
+        background-image: linear-gradient(to left, white, rgba(25, 122, 114, 0.753), white);
+        width: 100%;
+        height: 60px;
+
+
+    }
+}
+
+
+
+/*vista movil*/
+@media screen and (max-width: 599px) {
+    .paginas {
+        display: none;
+    }
+
+     .paginas__item a {
+        text-align: left;
+        text-decoration: underline;
+     } 
+          
+        
+      
+
+    .header__icono {
+        display: block;
+
+    }
+
+    .recegrid__titulo {
+        color: black;
+    }
+
+    .recegrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 8*200;
+        grid-template-areas:
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7"
+            "img8";
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 8*200;
+        grid-template-areas:
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7"
+            "img8";
+    }
+
+    .contacto1 {
+        width: 80%;
+    }
+
+    .productos1__hijo {
+        display: grid;
+        justify-content: left;
+
+    }
+
+    .footer__whatsaap {
+        width: 48px;
+        height: 48px;
+    }
+
+    .paginas{
+        display: none;
+        background-color: black;
+    }
+   
+    .header__icono{
+        display:block
+    }
+    .paginas:target{
+        display: block;
+    }
+    .inicio1__imagenderecha {
+        display: none;
+    }
+
+    .inicio1--derecha {
+        display: none;
+    }
+
+    .inicio1__titulo {
+
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .inicio1--izquierda {
+        width: 100%;
+    }
+
+    .footer__logo {
+        display: none;
+
+    }
+
+    .footer {
+        min-height: 70px;
+
+    }
+
+    .inicio2__videotex {
+        font-size: 40px;
+        color: rgba(25, 122, 114, 0.753);
+        text-align: center;
+    }
+
+    .footer__parrafo {
+        background-color: black;
+        text-align: center;
+        font-size: 14px;
+        color: rgba(25, 122, 114, 0.753);
+
+    }
+
+    .productos1__hijo {
+        color: black;
+        font-size: 14px;
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .productos1 {
+        background-image: linear-gradient(to left, white, rgba(25, 122, 114, 0.753), white);
+        width: 100%;
+        height: 20px;
+
+
+    }
+
+}

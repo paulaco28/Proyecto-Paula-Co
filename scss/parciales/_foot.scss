@@ -1,0 +1,71 @@
+footer {
+    display: flex;
+    width: 100%;
+    background-color: rgba(25, 122, 114, 0.753);
+    color: black;
+    min-height: 220px;
+    padding: 16px;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: linear-gradient(to left, rgba(8, 7, 3, 0.753), rgba(38, 151, 142, 0.753), rgba(8, 7, 3, 0.753));
+}
+
+
+
+.footer__parrafo {
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(25, 122, 114, 0.753);
+}
+
+.footer__whatsaap {
+    width: 70px;
+    padding: 0.5rem;
+    text-align: center;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    animation-name: whatsaap;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes whatsaap {
+    0% {
+        opacity: 2;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 2;
+    }
+}
+
+.footer__redes {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    margin: 20px;
+    padding: 20px;
+    gap: 1rem;
+}
+
+
+.footer__logo {
+    display: grid;
+    max-width: 100px;
+    min-height: 100px;
+    margin-bottom: 20px;
+    transition: transform 1s;
+}
+
+.footer__logo:hover {
+    transform: rotate(360deg);
+    animation-timing-function: linear;
+}
+
