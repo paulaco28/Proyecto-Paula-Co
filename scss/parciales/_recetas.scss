@@ -29,7 +29,7 @@
 }
 
 .recegrid__titulo {
-    color: rgba(25, 122, 114, 0.753);
+    color: $colorprincipal;
     display: grid;
     justify-content: center;
     align-content: flex-start;
@@ -117,7 +117,7 @@
     gap: 1rem;
     bottom: 0;
     right: 0;
-    color: rgba(25, 122, 114, 0.753);
+    color: $colorprincipal;
 }
 
 .rotate-vert-right {/**/
@@ -195,7 +195,7 @@
   
 
   .Recetas0{
-    color:rgba(25, 122, 114, 0.753);
+    color:$colorprincipal;
     font-size: 30px;
     display: grid;
     justify-content: center;

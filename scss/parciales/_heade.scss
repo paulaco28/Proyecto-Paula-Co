@@ -7,20 +7,21 @@
     align-items: center;
     padding: 2rem;
 
+    .header__icono {
+        font-size: 32px;
+        color:$colorprincipal;
+        text-decoration: none;
+        display: none;
+    }
+    .header__logo {
+        max-width: 200px;
+        min-height: 200px;
+        margin: 30px;
+    
+    }
 }
 
-.header__icono {
-    font-size: 32px;
-    color: rgba(25, 122, 114, 0.753);
-    text-decoration: none;
-    display: none;
-}
-.header__logo {
-    max-width: 200px;
-    min-height: 200px;
-    margin: 30px;
 
-}
 .paginas__lista {
     display: flex;
     flex-direction: row;
@@ -29,5 +30,5 @@
 
 .paginas__item {
     margin-left: 16px;
-    color: rgba(25, 122, 114, 0.753);
+    color: $colorprincipal;
 }

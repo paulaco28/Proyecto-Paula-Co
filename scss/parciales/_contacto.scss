@@ -3,7 +3,7 @@
     justify-items: center;
      width: 97%;
     background-color: white;
-    color: rgba(25, 122, 114, 0.753);
+    color:$colorprincipal;
     margin: 20px;
     padding: 5px;
     border: 5px solid black;
@@ -14,7 +14,7 @@
     padding: 15px;
 }
 .contacto0 {
-    color:rgba(25, 122, 114, 0.753);
+    color:$colorprincipal;
     font-size: 30px;
     display: grid;
     justify-content: center;
