@@ -32,3 +32,14 @@
     margin-left: 16px;
     color: $colorprincipal;
 }
+
+@mixin sizes($color, $justify-content,$font-size) {
+    color: $color;
+    justify-content: $justify-content;
+    font-size: $font-size;
+  }
+  .box {
+      display: grid;
+     @include sizes($colorprincipal, center, 30px);
+  }
+  

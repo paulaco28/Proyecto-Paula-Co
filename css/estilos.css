@@ -46,6 +46,13 @@ ul {
   color: rgba(25, 122, 114, 0.753);
 }
 
+.box {
+  display: grid;
+  color: rgba(25, 122, 114, 0.753);
+  justify-content: center;
+  font-size: 30px;
+}
+
 footer {
   display: flex;
   width: 100%;
@@ -94,17 +101,15 @@ footer .footer__logo:hover {
   0% {
     opacity: 2;
   }
-
   50% {
     opacity: 0;
   }
-
   100% {
     opacity: 2;
   }
 }
 
-.footer__redes {
+footer .footer__redes {
   padding: 0.5rem;
   display: flex;
   flex-direction: row;
@@ -112,6 +117,29 @@ footer .footer__logo:hover {
   margin: 20px;
   padding: 20px;
   gap: 1rem;
+}
+
+footer .footer_derechos {
+  background-color: black;
+  color: rgba(25, 122, 114, 0.753);
+  padding: 15px;
+  border: 5px solid black;
+  display: grid;
+  text-align: center;
+}
+
+footer .footer_redes1 {
+  display: grid;
+  justify-content: center;
+}
+
+.footer_derechos {
+  background-color: black;
+  color: rgba(25, 122, 114, 0.753);
+  padding: 15px;
+  border: 5px solid black;
+  display: grid;
+  text-align: center;
 }
 
 .inicio1 {
@@ -201,11 +229,9 @@ footer .footer__logo:hover {
   0% {
     opacity: 2;
   }
-
   50% {
     opacity: 0;
   }
-
   100% {
     opacity: 2;
   }
@@ -231,7 +257,7 @@ footer .footer__logo:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "img1 img2 img3""img4 img5 img6""img7 img8 img9";
+  grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9";
   /*tercera fila cuadricula*/
   /*son 3 filas en ese ejemplo, las filas se marcar con comillas*/
   column-gap: 1rem;
@@ -370,7 +396,7 @@ footer .footer__logo:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "img1 img2 img3""img4 img5 img6""img7 img8 img9";
+  grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9";
   /*segunda fila cuadricula*/
   /*tercera fila cuadricula*/
   /*son 3 filas en ese ejemplo, las filas se marcar con comillas*/
@@ -412,7 +438,6 @@ footer .footer__logo:hover {
   color: rgba(25, 122, 114, 0.753);
   display: grid;
 }
-
 
 .recegrid__hijo2 {
   grid-area: img2;
@@ -461,43 +486,6 @@ footer .footer__logo:hover {
   color: rgba(25, 122, 114, 0.753);
 }
 
-.footer__parrafo {
-  width: 100%;
-  background-color: black;
-  text-align: center;
-  font-size: 20px;
-
-}
-
-.footer__whatsaap {
-  width: 70px;
-  padding: 0.5rem;
-  text-align: center;
-  position: fixed;
-  right: 2rem;
-  bottom: 2rem;
-  animation-name: whatsaap;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-
-.footer__logo {
-  display: grid;
-  max-width: 100px;
-  min-height: 100px;
-  margin-bottom: 20px;
-  transition: transform 1s;
-
-  justify-content: center;
-}
-
-.footer__logo:hover {
-  transform: rotate(360deg);
-  animation-timing-function: linear;
-}
-
-
-
 .rotate-vert-right {
   /**/
   display: block;
@@ -513,7 +501,6 @@ footer .footer__logo:hover {
     -webkit-transform-origin: 84% 16%;
     transform-origin: 84% 16%;
   }
-
   100% {
     -webkit-transform: scale(1.25) translate(20px, -15px);
     transform: scale(1.25) translate(20px, -15px);
@@ -529,7 +516,6 @@ footer .footer__logo:hover {
     -webkit-transform-origin: 84% 16%;
     transform-origin: 84% 16%;
   }
-
   100% {
     -webkit-transform: scale(1.25) translate(20px, -15px);
     transform: scale(1.25) translate(20px, -15px);
@@ -551,11 +537,9 @@ footer .footer__logo:hover {
     transform: translateZ(-700px) translateY(-500px);
     opacity: 0;
   }
-
   40% {
     opacity: 0.6;
   }
-
   100% {
     -webkit-transform: translateZ(0) translateY(0);
     transform: translateZ(0) translateY(0);
@@ -570,11 +554,9 @@ footer .footer__logo:hover {
     transform: translateZ(-700px) translateY(-500px);
     opacity: 0;
   }
-
   40% {
     opacity: 0.6;
   }
-
   100% {
     -webkit-transform: translateZ(0) translateY(0);
     transform: translateZ(0) translateY(0);
@@ -582,13 +564,12 @@ footer .footer__logo:hover {
   }
 }
 
-/*.Recetas0 {
+.Recetas0 {
   color: rgba(25, 122, 114, 0.753);
   font-size: 30px;
   display: grid;
   justify-content: center;
-}*/
-
+}
 
 .contacto1 {
   display: grid;
@@ -596,8 +577,9 @@ footer .footer__logo:hover {
   width: 97%;
   background-color: white;
   color: rgba(25, 122, 114, 0.753);
-  margin: 20px;
-  padding: 5px;
+  padding: 25px;
+  margin: 15px;
+  margin-bottom: 15px;
   border: 5px solid black;
   margin-bottom: 15px;
 }
@@ -611,6 +593,43 @@ footer .footer__logo:hover {
   font-size: 30px;
   display: grid;
   justify-content: center;
+}
+
+.itemm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.item__img {
+  display: grid;
+  justify-content: center;
+  align-content: flex-end;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  border-radius: 10px;
+}
+
+.itemm1 {
+  background-image: rgba(25, 122, 114, 0.753);
+  width: 1000%;
+  height: 280px;
+  padding: 1rem;
+  display: grid;
+  text-align: center;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.item--d1 {
+  background-image: linear-gradient(to left, white, rgba(25, 122, 114, 0.753), white);
+}
+
+.item--d2 {
+  background-image: linear-gradient(to left, white, rgba(25, 122, 114, 0.753), white);
 }
 
 .faq {
@@ -654,19 +673,16 @@ footer .footer__logo:hover {
   padding: 5px;
 }
 
-.footer_derechos {
-  background-color: black;
-  color: rgba(25, 122, 114, 0.753);
-  padding: 15px;
-  border: 5px solid black;
-  display: grid;
-  justify-content: center;
-
-}
-
-.footer_redes1 {
-  display: grid;
-  justify-content: center;
+.footer__whatsaap {
+  width: 70px;
+  padding: 0.5rem;
+  text-align: center;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  animation-name: whatsaap;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 /*vista tablet*/
@@ -674,18 +690,15 @@ footer .footer__logo:hover {
   .recegrid__titulo {
     color: black;
   }
-
   .footer {
     min-height: 150px;
   }
-
   .footer__parrafo {
     background-color: black;
     text-align: center;
     font-size: 18px;
     color: rgba(25, 122, 114, 0.753);
   }
-
   .productos1__hijo {
     /* transform: translate( 400px, 100px);*/
     color: black;
@@ -693,7 +706,6 @@ footer .footer__logo:hover {
     display: grid;
     justify-content: center;
   }
-
   .productos1 {
     background-image: linear-gradient(to left, white, rgba(25, 122, 114, 0.753), white);
     width: 100%;
@@ -703,107 +715,100 @@ footer .footer__logo:hover {
 
 /*vista movil*/
 @media screen and (max-width: 599px) {
+  .header .header__icono {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 40px;
+    color: rgba(25, 122, 114, 0.753);
+    text-decoration: none;
+  }
   .paginas {
     display: none;
   }
-
-  .paginas__item a {
-    text-align: left;
-    text-decoration: underline;
+  .paginas__lista {
+    flex-direction: column;
   }
+  /* .paginas:target {
 
-  .header__icono {
     display: block;
-  }
+  
+    position: fixed;
+  
+    z-index: 1000;
+  
+    top: 0;
+  
+    left: 0;
+  
+    width: 50%;
+  
+    height: 40vh; }
+    .paginas__item {
 
+      font-size: 10px;
+    
+      margin-top: 1rem; }
+    
+     .paginas__item--oculto {
+    
+      display: block; }
+    
+      }*/
   .recegrid__titulo {
     color: black;
   }
-
   .recegrid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1600;
-    grid-template-areas: "img1"
-      "img2"
-      "img3"
-      "img4"
-      "img5"
-      "img6"
-      "img7"
-      "img8";
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8";
   }
-
   .grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1600;
-    grid-template-areas: "img1"
-      "img2"
-      "img3"
-      "img4"
-      "img5"
-      "img6"
-      "img7"
-      "img8";
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8";
   }
-
   .footer__parrafo {
     width: 100%;
     background-color: black;
     text-align: center;
     font-size: 20px;
-
   }
-
   .footer__whatsaap {
     width: 70px;
     padding: 0.5rem;
     text-align: center;
     position: fixed;
-    right: 2rem;
-    bottom: 2rem;
+    right: 1rem;
+    bottom: 1rem;
     animation-name: whatsaap;
     animation-duration: 2s;
     animation-iteration-count: infinite;
   }
-
   .contacto1 {
     width: 80%;
+    margin: 20px;
+    padding: 5px;
   }
   .contacto__arriba {
     display: grid;
-   justify-content: center;
-   padding-left: 10px;
+    justify-content: center;
+    padding-left: 10px;
   }
-
   .productos1__hijo {
     display: grid;
     justify-content: left;
   }
-
   .footer__whatsaap {
     width: 48px;
     height: 48px;
   }
-
-  .paginas {
-    display: none;
-    background-color: black;
-  }
-
-  .header__icono {
-    display: block;
-  }
-
-  .paginas:target {
-    display: block;
-  }
-
   .inicio1 .inicio1__imagenderecha {
     display: none;
   }
-
   .inicio1 .inicio1--izquierda {
     width: 100%;
     background-color: #f2f8f8;
@@ -813,37 +818,26 @@ footer .footer__logo:hover {
     justify-content: center;
     align-items: center;
   }
-
   .inicio1 .inicio1__titulo {
     font-size: 30px;
     text-align: center;
     margin-bottom: 30px;
     text-transform: uppercase;
   }
-
   .inicio1--izquierda {
     width: 100%;
   }
-
-  
-
   footer {
     display: flex;
     width: 100%;
-
-    background-color: rgba(25, 122, 114, 0.753);
-    color: black;
-    min-height: 80px;
-    padding: 8px;
+    min-height: 10px;
     justify-content: center;
     align-items: flex-end;
     background-image: linear-gradient(to left, rgba(8, 7, 3, 0.753), rgba(38, 151, 142, 0.753), rgba(8, 7, 3, 0.753));
   }
-
   footer .footer__logo {
     display: none;
   }
-
   .footer__redes {
     padding: 0.5rem;
     display: flex;
@@ -853,20 +847,17 @@ footer .footer__logo:hover {
     padding: 20px;
     gap: 1rem;
   }
-
   .inicio2__videotex {
     font-size: 40px;
     color: rgba(25, 122, 114, 0.753);
     text-align: center;
   }
-
   .footer__parrafo {
     background-color: black;
     text-align: center;
     font-size: 14px;
     color: rgba(25, 122, 114, 0.753);
   }
-
   .productos {
     font-size: 14px;
     color: rgba(25, 122, 114, 0.753);
@@ -875,18 +866,29 @@ footer .footer__logo:hover {
     margin-bottom: 30px;
     padding: 25px;
     margin: 15px;
-   
   }
-
   .productos1__hijo {
     color: black;
     font-size: 14px;
     display: grid;
     justify-content: center;
   }
-
   .productos1 {
     background-image: linear-gradient(to left, white, rgba(25, 122, 114, 0.753), white);
     width: 100%;
     height: 20px;
   }
+  .item__img {
+    display: none;
+  }
+  .itemm1 {
+    color: black;
+    width: 1000%;
+    height: 100px;
+    padding: 1rem;
+    display: grid;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+  }
+}

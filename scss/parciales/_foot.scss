@@ -43,12 +43,6 @@ footer {
 }
 
 
-}
-
-
-
-
-
 @keyframes whatsaap {
     0% {
         opacity: 2;
@@ -73,3 +67,27 @@ footer {
     gap: 1rem;
 }
 
+.footer_derechos {
+    background-color: black;
+    color: rgba(25, 122, 114, 0.753);
+    padding: 15px;
+    border: 5px solid black;
+    display: grid;
+    text-align: center;
+  
+  }
+  
+  .footer_redes1 {
+    display: grid;
+    justify-content: center;
+  }
+ }
+ .footer_derechos {
+    background-color: black;
+    color: rgba(25, 122, 114, 0.753);
+    padding: 15px;
+    border: 5px solid black;
+    display: grid;
+    text-align: center;
+  
+  }
