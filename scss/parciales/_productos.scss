@@ -36,16 +36,17 @@
 
 }
 
-.grid__hijo1,
-.grid__text {
-
-    background-color: white;
+.grid__hijo1{
+    
     grid-area: img1;
 }
 
+
+
 .grid__hijo2 {
 
-    background-color: white;
+ 
+    color: black;
     grid-area: img2;
     /*justify-self: start;
     align-self: end; /*para mover solo a un hijo se pone justiy self y aline self*/
@@ -53,7 +54,7 @@
 
 .grid__hijo3 {
 
-    background-color: white;
+ 
     grid-area: img4;
 }
 
@@ -65,28 +66,28 @@
 
 .grid__hijo5 {
 
-    background-color: white;
+  
     grid-area: img5;
 
 }
 
 .grid__hijo6 {
 
-    background-color: white;
+ 
     grid-area: img6;
 }
 
 .grid__hijo6 {
 
-    background-color: white;
     grid-area: img6;
 }
 
 .grid__hijo6 {
 
-    background-color: white;
+   
     grid-area: img6;
 }
+
 
 .grid__img {
     width: 100%;
@@ -99,11 +100,12 @@
 }
 
 .grid__text {
+    background-color: $colorprincipal;
     position: absolute;
     bottom: 0;
     right: 0;
-    color: $colorprincipal;
-
+    color: black;
+font-style: 60px;
 
 }
 
@@ -113,7 +115,7 @@
 }
 .productos{
     
-    color: $colorprincipal;
+    color: black;
     display: grid;
     justify-content: center;
     margin-bottom: 30px;
@@ -125,7 +127,7 @@ margin: 15px;
 .productos__trasn {
 width: 100px;
 height: 100px;
-color: $colorprincipal;
+color: black;
 margin: 30px;
 }
 

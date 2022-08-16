@@ -7,12 +7,14 @@
     align-items: center;
     padding: 2rem;
 
+
     .header__icono {
         font-size: 32px;
         color:$colorprincipal;
         text-decoration: none;
         display: none;
-    }
+      }
+
     .header__logo {
         max-width: 200px;
         min-height: 200px;
@@ -22,10 +24,15 @@
 }
 
 
+
+
 .paginas__lista {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.paginas__item--oculto{
+display: none;
 }
 
 .paginas__item {
@@ -42,4 +49,5 @@
       display: grid;
      @include sizes($colorprincipal, center, 30px);
   }
+  
   
