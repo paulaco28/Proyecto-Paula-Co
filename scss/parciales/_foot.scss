@@ -3,9 +3,10 @@ footer {
     width: 100%;
     background-color: $colorprincipal;
     color: black;
-    min-height: 220px;
+    min-height: 20px;
     padding: 16px;
     justify-content: center;
+    align-content: center;
     align-items: flex-end;
     background-image: linear-gradient(to left, rgba(8, 7, 3, 0.753), rgba(38, 151, 142, 0.753), rgba(8, 7, 3, 0.753));
 
@@ -29,13 +30,7 @@ footer {
         animation-iteration-count: infinite;
     }
     
-    .footer__logo {
-    display: grid;
-    max-width: 100px;
-    min-height: 100px;
-    margin-bottom: 20px;
-    transition: transform 1s;
-}
+  
 
     .footer__logo:hover {
     transform: rotate(360deg);
@@ -62,11 +57,20 @@ footer {
     display: flex;
     flex-direction: row;
     justify-items: left;
-    margin: 20px;
+    margin: 0px;
     padding: 20px;
     gap: 1rem;
 }
-
+.footer__logo {
+    display:flex;
+    max-width: 100px;
+    min-height: 100px;
+    flex-direction: row;
+    justify-items: left;
+    margin-bottom: 10px;
+    transition: transform 1s;
+    
+}
 .footer_derechos {
     background-color: black;
     color: rgba(25, 122, 114, 0.753);
@@ -79,15 +83,17 @@ footer {
   
   .footer_redes1 {
     display: grid;
-    justify-content: center;
+  
   }
  }
  .footer_derechos {
     background-color: black;
     color: rgba(25, 122, 114, 0.753);
-    padding: 15px;
-    border: 5px solid black;
+    padding: 3px;
+    font-size: 20px;
     display: grid;
     text-align: center;
+    justify-content: center;
   
   }
+ 

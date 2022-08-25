@@ -22,9 +22,13 @@
     
     }
 }
+.paginas__color{
+    color: black;
+}
 
-
-
+a{
+    color: black;
+}
 
 .paginas__lista {
     display: flex;
@@ -36,7 +40,7 @@ display: none;
 }
 
 .paginas__item {
-    margin-left: 16px;
+    margin-left: 14px;
     color: $colorprincipal;
 }
 

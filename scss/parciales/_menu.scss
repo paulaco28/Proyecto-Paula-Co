@@ -24,7 +24,7 @@
     background-image: rgba(25, 122, 114, 0.753);
 
     width: 1000%;
-    height: 280px;
+    height: 100px;
     padding: 1rem;
     display: grid;
     text-align: center;
@@ -33,10 +33,9 @@
 
 }
 
-
 $colores: (
-    d1:linear-gradient(to left, white, rgba(25, 122, 114, 0.753), white),
-    d2:linear-gradient(to left, white, rgba(25, 122, 114, 0.753), white),
+    d1:linear-gradient(to left, white),
+    d2:linear-gradient(to left,  white),
 );
 
 @for $i from 1 through 2 {

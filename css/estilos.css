@@ -35,6 +35,14 @@ ul {
   margin: 30px;
 }
 
+.paginas__color {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
 .paginas__lista {
   display: flex;
   flex-direction: row;
@@ -46,7 +54,7 @@ ul {
 }
 
 .paginas__item {
-  margin-left: 16px;
+  margin-left: 14px;
   color: rgba(25, 122, 114, 0.753);
 }
 
@@ -62,9 +70,10 @@ footer {
   width: 100%;
   background-color: rgba(25, 122, 114, 0.753);
   color: black;
-  min-height: 220px;
+  min-height: 20px;
   padding: 16px;
   justify-content: center;
+  align-content: center;
   align-items: flex-end;
   background-image: linear-gradient(to left, rgba(8, 7, 3, 0.753), rgba(38, 151, 142, 0.753), rgba(8, 7, 3, 0.753));
 }
@@ -86,14 +95,6 @@ footer .footer__whatsaap {
   animation-name: whatsaap;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-}
-
-footer .footer__logo {
-  display: grid;
-  max-width: 100px;
-  min-height: 100px;
-  margin-bottom: 20px;
-  transition: transform 1s;
 }
 
 footer .footer__logo:hover {
@@ -118,9 +119,19 @@ footer .footer__redes {
   display: flex;
   flex-direction: row;
   justify-items: left;
-  margin: 20px;
+  margin: 0px;
   padding: 20px;
   gap: 1rem;
+}
+
+footer .footer__logo {
+  display: flex;
+  max-width: 100px;
+  min-height: 100px;
+  flex-direction: row;
+  justify-items: left;
+  margin-bottom: 10px;
+  transition: transform 1s;
 }
 
 footer .footer_derechos {
@@ -134,16 +145,16 @@ footer .footer_derechos {
 
 footer .footer_redes1 {
   display: grid;
-  justify-content: center;
 }
 
 .footer_derechos {
   background-color: black;
   color: rgba(25, 122, 114, 0.753);
-  padding: 15px;
-  border: 5px solid black;
+  padding: 3px;
+  font-size: 20px;
   display: grid;
   text-align: center;
+  justify-content: center;
 }
 
 .inicio1 {
@@ -196,7 +207,7 @@ footer .footer_redes1 {
 
 .inicio1 .inicio1__parrafo {
   text-align: center;
-  font-size: 10px;
+  font-size: 20px;
   color: black;
 }
 
@@ -615,7 +626,7 @@ footer .footer_redes1 {
 .itemm1 {
   background-image: rgba(25, 122, 114, 0.753);
   width: 1000%;
-  height: 280px;
+  height: 100px;
   padding: 1rem;
   display: grid;
   text-align: center;
@@ -624,11 +635,11 @@ footer .footer_redes1 {
 }
 
 .item--d1 {
-  background-image: linear-gradient(to left, white, rgba(25, 122, 114, 0.753), white);
+  background-image: linear-gradient(to left, white);
 }
 
 .item--d2 {
-  background-image: linear-gradient(to left, white, rgba(25, 122, 114, 0.753), white);
+  background-image: linear-gradient(to left, white);
 }
 
 .faq {
@@ -732,7 +743,7 @@ footer .footer_redes1 {
   }
   .paginas {
     display: none;
-    background-color: #0a1e24;
+    background-color: #1d596b;
     color: black;
     position: fixed;
     top: 0;
@@ -750,6 +761,9 @@ footer .footer_redes1 {
     align-items: flex-start;
     gap: 1rem;
     height: 100%;
+  }
+  .paginas__color {
+    color: rgba(25, 122, 114, 0.753);
   }
   .paginas__item--oculto {
     display: block;
@@ -833,15 +847,16 @@ footer .footer_redes1 {
   .inicio1--izquierda {
     width: 100%;
   }
-  footer {
+  .footer .footer__logo {
     display: flex;
     width: 100%;
+    height: 70px;
     min-height: 10px;
     justify-content: center;
     align-items: flex-end;
     background-image: linear-gradient(to left, rgba(8, 7, 3, 0.753), rgba(38, 151, 142, 0.753), rgba(8, 7, 3, 0.753));
   }
-  footer .footer__logo {
+  .footer .footer__logo {
     display: none;
   }
   .footer__redes {
@@ -857,6 +872,11 @@ footer .footer_redes1 {
     font-size: 40px;
     color: rgba(25, 122, 114, 0.753);
     text-align: center;
+  }
+  .inicio1__parrafo {
+    text-align: center;
+    font-size: 5px;
+    color: black;
   }
   .footer__parrafo {
     background-color: black;
