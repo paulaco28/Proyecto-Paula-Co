@@ -1,0 +1,22 @@
+.contacto1 {
+    display: grid;
+    justify-items: center;
+     width: 97%;
+    background-color: white;
+    color:$colorprincipal;
+    padding: 25px;
+    margin: 15px;
+    margin-bottom: 15px;
+    border: 5px solid black;
+    margin-bottom: 15px
+}
+
+.contacto__arriba {
+    padding: 15px;
+}
+.contacto0 {
+    color:$colorprincipal;
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+}
